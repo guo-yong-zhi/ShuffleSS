@@ -1,0 +1,8 @@
+{
+	"items": [
+		{
+			"name": "ShuffleSS", 
+			"action": "mntroot rw; ./shufflenames.sh /usr/share/blanket/screensaver *.png; mntroot ro"
+		}
+	]
+}

@@ -1,9 +1,15 @@
 {
 	"items": [
 		{
-			"name": "ShuffleSS", 
-			"priority": 100,
-			"action": "mntroot rw; ./shufflenames.sh /usr/share/blanket/screensaver bg_ss*.png && eips 30 1 'shuffle success'; mntroot ro"
+			"name": "Tools",
+			"priority": -10,
+			"items": [
+				{
+					"name": "ShuffleSS",
+					"priority": 100,
+					"action": "mntroot rw; ./shufflenames.sh /usr/share/blanket/screensaver bg_ss*.png && eips 30 1 'shuffle success'; mntroot ro"
+				}
+			]
 		}
 	]
 }
